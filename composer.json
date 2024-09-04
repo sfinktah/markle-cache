@@ -1,0 +1,33 @@
+{
+    "name": "sfinktah/markle-cache",
+    "description": "Simple MemCache for Markle",
+    "keywords": ["markle-cache", "markle", "memcache", "memcached", "cache"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christopher Anderson",
+            "email": "sfinktah@github.spamtrak.org"
+        }
+    ],
+    "require": {
+        "php": "^7.2|^8.0"
+    },
+    "require-dev": {
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Sfinktah\\markle-cache\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
