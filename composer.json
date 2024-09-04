@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Sfinktah\\markle-cache\\": "src/"
+            "Sfinktah\\MarkleCache\\": "src/"
         }
     },
     "autoload-dev": {
