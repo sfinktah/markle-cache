@@ -36,8 +36,9 @@ class MarkleCacheImpl
     }
 
     public function itemKey($key) {
-        return $key;
+        return preg_replace('/[^a-zA-Z0-9_-]+/', '', str_replace(' ', '_', strtolower($key)));
     }
+
 
     public function get($key, $default = null): mixed {
         $flags = false;
